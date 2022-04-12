@@ -137,10 +137,10 @@ line-height: 1.3;
     padding: 10px 20px;
 }
 
-.intro {
+/*.intro {
 
     }
-    
+   */ 
 .section-title {
      font-size: 55px;
      color: #024e76;
@@ -171,35 +171,58 @@ line-height: 1.3;
 .steps{
      background: #fce138;
     }
-    
-.steps span {
-     font-size:38px;
-    }
-
-.steps div{
-     margin-bottom: 80px;
-    }
-    
-.steps img {
-     width: 15%;
-     margin: 10px 0;
-    }
-    
-.steps h3 {
-     color: #024e76;
-     font-size: 46px;
-     margin-top: 10px;
-    }
-    
-.steps p{
-     color: #39a6b2;
-     font-size: 23px;
-    }
-    
-.trainers {
-
+.step{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+/*  flex-flow: row wrap;                  */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
     
+.step h3 {
+     color: #024e76;
+     font-size: 46px;
+     flex: 1 30%;
+    }
+
+.step-info{
+    flex: 2 70%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step-text{
+    flex: 12;
+}
+    
+.step-image{
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-image img{
+    max-width: 100%;
+}
+
+.steps-text p{
+     color: #39a6b2;
+     font-size: 18px;
+    }
+
+.step-text h4{
+        font-size: 26px;
+        line-height: 1.5;
+        color: #024e76;
+    }
+    
+/*.trainers {
+
+}
+*/  
 .trainer{
      width: 900px;
      margin: 0 auto 30px auto;
