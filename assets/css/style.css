@@ -16,6 +16,8 @@ header h1{
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 header a { 
@@ -39,6 +41,7 @@ header nav ul li a {
     padding: 10px 15px ; 
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -97,15 +100,18 @@ line-height: 1.2;
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form{
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     border: solid 3px #024e76;
+    border-radius: 15px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .hero-form h3{
     margin: 0px;
@@ -119,6 +125,7 @@ line-height: 1.2;
 
 .form-input {
     border: #024e76 1px solid;
+    border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
